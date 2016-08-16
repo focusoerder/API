@@ -1,0 +1,1089 @@
+[ 2016-08-11T10:50:02+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/usergroup?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Get
+
+[ 2016-08-11T10:50:46+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/usergroup?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0950s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `pre_common_usergroup` [ RunTime:0.0120s ]
+ERR: Think\Model:jion方法不存在！
+
+[ 2016-08-11T10:53:58+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/usergroup?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0000s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_usergroup` [ RunTime:0.0100s ]
+ERR: 1054:Champ 'p.gruupid' inconnu dans on clause
+ [ SQL语句 ] : SELECT cu.groupid,cu.grouptitle FROM pre_common_usergroup cu left join pre_common_usergroup_field p on p.gruupid=cu.groupid  WHERE ( readaccess >0 ) 
+ERR: 1054:Champ 'p.gruupid' inconnu dans on clause
+ [ SQL语句 ] : SELECT cu.groupid,cu.grouptitle FROM pre_common_usergroup cu left join pre_common_usergroup_field p on p.gruupid=cu.groupid  WHERE ( readaccess >0 ) 
+
+[ 2016-08-11T10:54:59+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/usergroup?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0110s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_usergroup` [ RunTime:0.0090s ]
+SQL: SELECT cu.groupid,cu.grouptitle FROM pre_common_usergroup cu left join pre_common_usergroup_field p on p.groupid=cu.groupid  WHERE ( readaccess >0 )  [ RunTime:0.0010s ]
+
+[ 2016-08-11T10:55:38+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/usergroup?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0070s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_usergroup` [ RunTime:0.0060s ]
+SQL: SELECT cu.groupid,cu.grouptitle FROM pre_common_usergroup cu left join pre_common_usergroup_field p on p.groupid=cu.groupid  WHERE ( readaccess >0 ) ORDER BY readaccess asc  [ RunTime:0.0010s ]
+
+[ 2016-08-11T11:17:38+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-11T11:18:04+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0100s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470885484','0') [ RunTime:0.0220s ]
+SQL: INSERT INTO `pre_forum_post` (`fid`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','admin','1','的工作的改革是','1470885484','0') [ RunTime:0.0340s ]
+
+[ 2016-08-11T11:27:36+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0060s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470886056','0') [ RunTime:0.0010s ]
+SQL: INSERT INTO `pre_forum_post` (`fid`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','admin','1','的工作的改革是','1470886056','0') [ RunTime:0.0000s ]
+
+[ 2016-08-11T11:38:48+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0050s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470886728','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_post` (`tid`,`fid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES ('6465','54','admin','1','的工作的改革是','1470886728','给你回复你烦人','192.168.1.42','56183','0','dvxc,sfsg,sfaf') [ RunTime:0.0010s ]
+
+[ 2016-08-11T11:40:19+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470886819','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES ('0','54','6466','admin','1','的工作的改革是','1470886819','给你回复你烦人','192.168.1.42','56188','0','dvxc,sfsg,sfaf') [ RunTime:0.0000s ]
+
+[ 2016-08-11T11:45:33+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470887133','0') [ RunTime:0.0000s ]
+ERR: 1062:Duplicata du champ '0' pour la clef 'pid'
+ [ SQL语句 ] : INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES ('0','54','6467','admin','1','的工作的改革是','1470887133','给你回复你烦人','192.168.1.42','56275','0','dvxc,sfsg,sfaf')
+ERR: 1062:Duplicata du champ '0' pour la clef 'pid'
+ [ SQL语句 ] : INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES ('0','54','6467','admin','1','的工作的改革是','1470887133','给你回复你烦人','192.168.1.42','56275','0','dvxc,sfsg,sfaf')
+
+[ 2016-08-11T11:49:25+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0100s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470887365','0') [ RunTime:0.0300s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+ERR: :
+ [ SQL语句 ] : INSERT INTO pre_forum_post_tableid VALUES()
+ERR: :
+ [ SQL语句 ] : INSERT INTO pre_forum_post_tableid VALUES()
+
+[ 2016-08-11T11:50:32+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0050s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470887432','0') [ RunTime:0.0010s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+ERR: 1062:Duplicata du champ '1' pour la clef 'pid'
+ [ SQL语句 ] : INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES ('1','54','6469','admin','1','的工作的改革是','1470887432','给你回复你烦人','192.168.1.42','56288','0','dvxc,sfsg,sfaf')
+ERR: 1062:Duplicata du champ '1' pour la clef 'pid'
+ [ SQL语句 ] : INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES ('1','54','6469','admin','1','的工作的改革是','1470887432','给你回复你烦人','192.168.1.42','56288','0','dvxc,sfsg,sfaf')
+
+[ 2016-08-11T11:52:58+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0050s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470887578','0') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `pre_forum_post` (`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES ('54','6470','admin','1','的工作的改革是','1470887578','给你回复你烦人','192.168.1.42','56293','0','dvxc,sfsg,sfaf') [ RunTime:0.0000s ]
+
+[ 2016-08-11T11:54:11+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0100s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470887651','0') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Pid E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Post.class.php 第 121 行.
+ERR: 1048:Le champ 'pid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES (NULL,'54','6471','admin','1','的工作的改革是','1470887651','给你回复你烦人','192.168.1.42','56296','0','dvxc,sfsg,sfaf')
+ERR: 1048:Le champ 'pid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES (NULL,'54','6471','admin','1','的工作的改革是','1470887651','给你回复你烦人','192.168.1.42','56296','0','dvxc,sfsg,sfaf')
+
+[ 2016-08-11T11:56:24+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0100s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470887784','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+ERR: :
+ [ SQL语句 ] : INSERT INTO pre_forum_post_tableid VALUES()
+ERR: :
+ [ SQL语句 ] : INSERT INTO pre_forum_post_tableid VALUES()
+
+[ 2016-08-11T11:57:19+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0100s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470887839','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+SQL: SELECT * FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Pid E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Post.class.php 第 121 行.
+ERR: 1048:Le champ 'pid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES (NULL,'54','6473','admin','1','的工作的改革是','1470887839','给你回复你烦人','192.168.1.42','56344','0','dvxc,sfsg,sfaf')
+ERR: 1048:Le champ 'pid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES (NULL,'54','6473','admin','1','的工作的改革是','1470887839','给你回复你烦人','192.168.1.42','56344','0','dvxc,sfsg,sfaf')
+
+[ 2016-08-11T11:58:10+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0040s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470887890','0') [ RunTime:0.0010s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Pid E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Post.class.php 第 121 行.
+ERR: 1048:Le champ 'pid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES (NULL,'54','6474','admin','1','的工作的改革是','1470887890','给你回复你烦人','192.168.1.42','56347','0','dvxc,sfsg,sfaf')
+ERR: 1048:Le champ 'pid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES (NULL,'54','6474','admin','1','的工作的改革是','1470887890','给你回复你烦人','192.168.1.42','56347','0','dvxc,sfsg,sfaf')
+
+[ 2016-08-11T11:58:19+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470887899','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pid E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Post.class.php 第 121 行.
+ERR: 1048:Le champ 'pid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES (NULL,'54','6475','admin','1','的工作的改革是','1470887899','给你回复你烦人','192.168.1.42','56350','0','dvxc,sfsg,sfaf')
+ERR: 1048:Le champ 'pid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES (NULL,'54','6475','admin','1','的工作的改革是','1470887899','给你回复你烦人','192.168.1.42','56350','0','dvxc,sfsg,sfaf')
+
+[ 2016-08-11T11:59:37+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470887977','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pid E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Post.class.php 第 121 行.
+ERR: 1048:Le champ 'pid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES (NULL,'54','6476','admin','1','的工作的改革是','1470887977','给你回复你烦人','192.168.1.42','56360','0','dvxc,sfsg,sfaf')
+ERR: 1048:Le champ 'pid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES (NULL,'54','6476','admin','1','的工作的改革是','1470887977','给你回复你烦人','192.168.1.42','56360','0','dvxc,sfsg,sfaf')
+
+[ 2016-08-11T11:59:55+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470887995','0') [ RunTime:0.0100s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES ('28528','54','6477','admin','1','的工作的改革是','1470887995','给你回复你烦人','192.168.1.42','56362','0','dvxc,sfsg,sfaf') [ RunTime:0.0100s ]
+
+[ 2016-08-11T13:39:43+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0700s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0100s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470893983','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES ('28529','54','6478','admin','1','的工作的改革是','1470893983','给你回复你烦人','192.168.1.42','57922','0','dvxc,sfsg,sfaf') [ RunTime:0.0000s ]
+SQL: SELECT `tid` FROM `pre_forum_post` WHERE ( pid=28529 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-11T13:40:16+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0100s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','0','admin','1','的工作的改革是','1470894016','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES ('28530','54','6479','admin','1','的工作的改革是','1470894016','给你回复你烦人','192.168.1.42','57925','0','dvxc,sfsg,sfaf') [ RunTime:0.0000s ]
+SQL: SELECT `tid` FROM `pre_forum_post` WHERE ( pid=28530 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-11T13:46:35+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_usergroup_field` [ RunTime:0.0110s ]
+SQL: SELECT `readaccess` FROM `pre_common_usergroup_field` WHERE ( groupid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0080s ]
+SQL: INSERT INTO `pre_forum_thread` (`fid`,`typeid`,`readperm`,`author`,`authorid`,`subject`,`dateline`,`attachment`) VALUES ('54','54','70','admin','1','的工作的改革是','1470894395','0') [ RunTime:0.0010s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`subject`,`dateline`,`message`,`useip`,`port`,`attachment`,`tags`) VALUES ('28531','54','6480','admin','1','的工作的改革是','1470894395','给你回复你烦人','192.168.1.42','57954','0','dvxc,sfsg,sfaf') [ RunTime:0.0010s ]
+SQL: SELECT `tid` FROM `pre_forum_post` WHERE ( pid=28531 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-11T14:13:40+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/type?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0060s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_forum_threadclass` [ RunTime:0.0060s ]
+SQL: SELECT `typeid`,`name` FROM `pre_forum_threadclass` WHERE ( fid=53 )  [ RunTime:0.0010s ]
+
+[ 2016-08-11T14:47:24+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-08-11T14:49:41+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/post/%20thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0200s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0100s ]
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-11T14:51:08+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/reply/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0080s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-11T14:51:39+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/reply/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0070s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-11T14:52:02+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/reply/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0000s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: posttable E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Post.class.php 第 162 行.
+
+[ 2016-08-11T14:56:58+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/reply/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0100s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`dateline`,`message`,`useip`,`port`,`attachment`) VALUES ('28534','54','0','admin','1','1470898618','GV发的红包的','192.168.1.42','59291','0') [ RunTime:0.0000s ]
+SQL: SELECT `tid` FROM `pre_forum_post` WHERE ( pid=28534 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `pre_forum_thread` SET `lastpost`='1470898618',`lastposter`='admin' WHERE ( tid=0 ) [ RunTime:0.0000s ]
+
+[ 2016-08-11T14:57:55+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/reply/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0110s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0110s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`dateline`,`message`,`useip`,`port`,`attachment`) VALUES ('28535','54','6480','admin','1','1470898675','的身高多少分工会','192.168.1.42','59339','0') [ RunTime:0.0000s ]
+SQL: SELECT `tid` FROM `pre_forum_post` WHERE ( pid=28535 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-11T14:58:30+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/reply/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0000s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`dateline`,`message`,`useip`,`port`,`attachment`) VALUES ('28536','54','6480','admin','1','1470898710','的身高多少分工会','192.168.1.42','59342','0') [ RunTime:0.0000s ]
+SQL: SELECT `tid` FROM `pre_forum_post` WHERE ( pid=28536 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-11T14:59:51+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/reply/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0000s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0000s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`dateline`,`message`,`useip`,`port`,`attachment`) VALUES ('28537','54','6480','admin','1','1470898791','法国代购','192.168.1.42','59391','0') [ RunTime:0.0100s ]
+SQL: SELECT `tid` FROM `pre_forum_post` WHERE ( pid=28537 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-11T15:02:23+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/reply/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0080s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`dateline`,`message`,`useip`,`port`,`attachment`) VALUES ('28538','54','6480','admin','1','1470898943','写操作','192.168.1.42','59521','0') [ RunTime:0.0000s ]
+SQL: SELECT `tid` FROM `pre_forum_post` WHERE ( pid=28538 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-11T15:04:05+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/reply/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0090s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0090s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0090s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`dateline`,`message`,`useip`,`port`,`attachment`) VALUES ('28539','54','6480','admin','1','1470899045','写操作','192.168.1.42','59561','0') [ RunTime:0.0010s ]
+SQL: SELECT `tid` FROM `pre_forum_post` WHERE ( pid=28539 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-11T15:04:20+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/reply/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0070s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`dateline`,`message`,`useip`,`port`,`attachment`) VALUES ('28540','54','6480','admin','1','1470899060','写操作','192.168.1.42','59563','0') [ RunTime:0.0010s ]
+SQL: SELECT `tid` FROM `pre_forum_post` WHERE ( pid=28540 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-11T15:05:29+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/reply/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0070s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post_tableid` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `pre_forum_post` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0050s ]
+SQL: INSERT INTO pre_forum_post_tableid VALUES() [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `pre_forum_post_tableid` ORDER BY pid desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_post` (`pid`,`fid`,`tid`,`author`,`authorid`,`dateline`,`message`,`useip`,`port`,`attachment`) VALUES ('28541','54','6480','admin','1','1470899129','发的啥风格','192.168.1.42','59586','0') [ RunTime:0.0000s ]
+SQL: SELECT `tid` FROM `pre_forum_post` WHERE ( pid=28541 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `pre_forum_thread` SET `lastpost`='1470899129',`lastposter`='admin' WHERE ( tid=6480 ) [ RunTime:0.0000s ]
+
+[ 2016-08-11T15:46:29+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-11T15:46:52+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.019000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019000s ]
+
+[ 2016-08-11T15:47:34+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-11T15:48:07+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-11T15:50:07+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2016-08-11T15:50:46+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-11T16:03:35+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-11T19:12:42+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:upload_enclosure
+
+[ 2016-08-11T19:13:56+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0320s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: upfile E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 48 行.
+
+[ 2016-08-11T19:16:11+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0090s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: upfile E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 48 行.
+
+[ 2016-08-11T19:18:05+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0080s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-11T19:18:55+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0100s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-11T19:20:38+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0090s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-11T19:22:36+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0100s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-11T19:26:57+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+
+[ 2016-08-11T19:28:11+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0130s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: up E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 55 行.
+
+[ 2016-08-11T19:29:54+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0070s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: up E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: filename E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 56 行.
+NOTIC: [8] Undefined variable: filename E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 56 行.
+NOTIC: [8] Undefined variable: filename E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 56 行.
+NOTIC: [8] Undefined variable: filename E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 56 行.
+
+[ 2016-08-11T19:31:29+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0080s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: filename E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `pre_forum_attachment` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_attachment_unused` [ RunTime:0.0080s ]
+SQL: INSERT INTO `pre_forum_attachment` (`uid`,`tableid`) VALUES ('0','127') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: filename E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 56 行.
+NOTIC: [8] Undefined variable: filename E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 56 行.
+NOTIC: [8] Undefined variable: filename E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 56 行.
+NOTIC: [8] Undefined variable: filename E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 56 行.
+
+[ 2016-08-11T19:32:11+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0090s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: title E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `pre_forum_attachment` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_attachment_unused` [ RunTime:0.0090s ]
+SQL: INSERT INTO `pre_forum_attachment` (`uid`,`tableid`) VALUES ('0','127') [ RunTime:0.0010s ]
+
+[ 2016-08-11T19:32:57+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0090s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] move_uploaded_file(./Pictures/1470915177CH1^Gsk*.jpg): failed to open stream: Invalid argument E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload\Driver\Local.class.php 第 83 行.
+NOTIC: [2] move_uploaded_file(): Unable to move 'C:\wamp\tmp\php474E.tmp' to './Pictures/1470915177CH1^Gsk*.jpg' E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload\Driver\Local.class.php 第 83 行.
+NOTIC: [8] Undefined index: title E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 48 行.
+
+[ 2016-08-11T19:33:40+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0080s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: title E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 48 行.
+
+[ 2016-08-11T19:34:15+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0070s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: title E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 48 行.
+
+[ 2016-08-11T19:35:09+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0090s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: title E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 48 行.
+
+[ 2016-08-11T19:35:57+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0070s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: title E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 48 行.
+
+[ 2016-08-11T19:38:14+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0060s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: title E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 48 行.
+
+[ 2016-08-11T19:38:19+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0070s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: title E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 48 行.
+
+[ 2016-08-11T19:38:50+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0090s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] strrpos() expects parameter 1 to be string, array given E:\www\Discuz\upload\focus_sg\Application\Home\Common\function.php 第 106 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given E:\www\Discuz\upload\focus_sg\Application\Home\Common\function.php 第 106 行.
+NOTIC: [2] strrpos() expects parameter 1 to be string, array given E:\www\Discuz\upload\focus_sg\Application\Home\Common\function.php 第 106 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given E:\www\Discuz\upload\focus_sg\Application\Home\Common\function.php 第 106 行.
+NOTIC: [2] strrpos() expects parameter 1 to be string, array given E:\www\Discuz\upload\focus_sg\Application\Home\Common\function.php 第 106 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given E:\www\Discuz\upload\focus_sg\Application\Home\Common\function.php 第 106 行.
+NOTIC: [2] strrpos() expects parameter 1 to be string, array given E:\www\Discuz\upload\focus_sg\Application\Home\Common\function.php 第 106 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given E:\www\Discuz\upload\focus_sg\Application\Home\Common\function.php 第 106 行.
+
+[ 2016-08-11T19:39:29+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0080s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-08-11T19:40:06+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0080s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-08-11T19:49:30+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-11T19:49:50+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0080s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `pre_forum_attachment` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `pre_forum_attachment_unused` [ RunTime:0.0060s ]
+SQL: INSERT INTO `pre_forum_attachment` (`uid`,`tableid`) VALUES ('0','127') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: filesize E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Enclosure.class.php 第 21 行.
+ERR: 1048:Le champ 'filesize' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `pre_forum_attachment_unused` (`aid`,`uid`,`dateline`,`filename`,`filesize`,`attachment`) VALUES ('5579','0','1470916190','31.jpg',NULL,'./Pictures/1470916190k!R&F%A$.jpg')
+ERR: 1048:Le champ 'filesize' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `pre_forum_attachment_unused` (`aid`,`uid`,`dateline`,`filename`,`filesize`,`attachment`) VALUES ('5579','0','1470916190','31.jpg',NULL,'./Pictures/1470916190k!R&F%A$.jpg')
+
+[ 2016-08-11T19:50:17+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0060s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-08-11T19:50:48+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0090s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-08-11T19:51:56+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0060s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `pre_forum_attachment` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `pre_forum_attachment_unused` [ RunTime:0.0050s ]
+SQL: INSERT INTO `pre_forum_attachment` (`uid`,`tableid`) VALUES ('0','127') [ RunTime:0.0000s ]
+SQL: INSERT INTO `pre_forum_attachment_unused` (`aid`,`uid`,`dateline`,`filename`,`filesize`,`attachment`) VALUES ('5580','0','1470916316','29.jpg','45559','./Pictures/1470916316Bis&cQ@U.jpg') [ RunTime:0.0000s ]
+
+[ 2016-08-11T19:55:11+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/upload/enclosure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\www\Discuz\upload\focus_sg\Application\Home\Controller\EnclosureController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0090s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='d43777377ef73dbfca795909d1149960' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `pre_forum_attachment` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_attachment_unused` [ RunTime:0.0090s ]
+SQL: INSERT INTO `pre_forum_attachment` (`uid`,`tableid`) VALUES ('0','127') [ RunTime:0.0010s ]
+SQL: INSERT INTO `pre_forum_attachment_unused` (`aid`,`uid`,`dateline`,`filename`,`filesize`,`attachment`) VALUES ('5581','0','1470916511','34 (3).jpg','49920','./Pictures/1470916511wgxkolF&.jpg') [ RunTime:0.0000s ]
+

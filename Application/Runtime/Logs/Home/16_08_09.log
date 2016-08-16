@@ -1,0 +1,2059 @@
+[ 2016-08-09T09:12:14+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0480s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0560s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0400s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1432 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 34 行.
+
+[ 2016-08-09T09:12:49+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` = 1  [ RunTime:0.1780s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` = 0  [ RunTime:0.0190s ]
+
+[ 2016-08-09T09:18:19+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0000s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` = 0  [ RunTime:0.0000s ]
+
+[ 2016-08-09T09:49:36+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1385 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` = 0  [ RunTime:0.0020s ]
+
+[ 2016-08-09T09:50:03+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0070s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1385 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 0  [ RunTime:0.0010s ]
+
+[ 2016-08-09T09:51:29+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0070s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1389 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 0  [ RunTime:0.0000s ]
+
+[ 2016-08-09T09:53:27+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1389 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+
+[ 2016-08-09T09:53:51+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 0  [ RunTime:0.0000s ]
+
+[ 2016-08-09T09:54:28+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0000s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1397 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 1  [ RunTime:0.0100s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 0  [ RunTime:0.0000s ]
+
+[ 2016-08-09T09:58:03+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+
+[ 2016-08-09T09:59:07+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+
+[ 2016-08-09T10:00:28+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+
+[ 2016-08-09T10:00:41+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+
+[ 2016-08-09T10:00:49+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0000s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+
+[ 2016-08-09T10:01:06+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+
+[ 2016-08-09T10:01:26+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+
+[ 2016-08-09T10:01:43+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 60 行.
+
+[ 2016-08-09T10:01:59+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] explode() expects parameter 2 to be string, array given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 48 行.
+
+[ 2016-08-09T10:02:09+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] explode() expects parameter 2 to be string, array given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 48 行.
+
+[ 2016-08-09T10:02:10+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] explode() expects parameter 2 to be string, array given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 48 行.
+
+[ 2016-08-09T10:02:17+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 60 行.
+
+[ 2016-08-09T10:02:18+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 60 行.
+
+[ 2016-08-09T10:02:24+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+
+[ 2016-08-09T10:02:42+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 46 行.
+NOTIC: [8] Undefined index: viewprem E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 60 行.
+
+[ 2016-08-09T10:03:03+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:03:26+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:03:51+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:03:52+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:04:23+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0070s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-09T10:04:46+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:04:47+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-09T10:06:11+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:06:35+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0200s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:06:45+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0000s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:07:16+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:08:10+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0200s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:08:24+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:08:48+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T10:08:59+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:09:12+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:09:42+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:09:48+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:12:01+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0560s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0140s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-09T10:12:08+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0090s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:12:18+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0090s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 49 行.
+NOTIC: [8] Undefined variable: arr E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 51 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 51 行.
+
+[ 2016-08-09T10:12:37+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0110s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-09T10:13:04+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:13:12+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0000s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:13:14+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:15:48+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-09T10:16:42+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:16:53+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0200s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:17:10+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 0  [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:17:41+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1439 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 1  [ RunTime:0.0100s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 0  [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:18:21+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1438 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T10:18:28+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 0  [ RunTime:0.0100s ]
+
+[ 2016-08-09T11:14:09+08:00 ] 127.0.0.1 /focus_sg/get/essence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0100s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_common_block_item` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `pre_common_block_item` WHERE `bid` = 74 AND `itemtype` = 1 ORDER BY displayorder asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pre_common_block_item` WHERE `bid` = 74 AND `itemtype` = 0 ORDER BY displayorder asc  [ RunTime:0.0000s ]
+
+[ 2016-08-09T11:36:58+08:00 ] 127.0.0.1 /focus_sg/get/essence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0090s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_common_block_item` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`idtype`,`title`,`url` FROM `pre_common_block_item` WHERE `bid` = 74 ORDER BY displayorder asc  [ RunTime:0.0010s ]
+NOTIC: [2] parse_str() expects parameter 1 to be string, array given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Post.class.php 第 22 行.
+NOTIC: [8] Undefined variable: tid E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Post.class.php 第 23 行.
+
+[ 2016-08-09T11:37:13+08:00 ] 127.0.0.1 /focus_sg/get/essence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0100s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_block_item` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`idtype`,`title`,`url` FROM `pre_common_block_item` WHERE `bid` = 74 ORDER BY displayorder asc  [ RunTime:0.0000s ]
+NOTIC: [2] parse_str() expects parameter 1 to be string, array given E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Post.class.php 第 22 行.
+NOTIC: [8] Undefined variable: tid E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Post.class.php 第 23 行.
+
+[ 2016-08-09T11:37:40+08:00 ] 127.0.0.1 /focus_sg/get/essence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0100s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_block_item` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`idtype`,`title`,`url` FROM `pre_common_block_item` WHERE `bid` = 74 ORDER BY displayorder asc  [ RunTime:0.0000s ]
+
+[ 2016-08-09T11:48:02+08:00 ] 127.0.0.1 /focus_sg/et/new?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:48:32+08:00 ] 127.0.0.1 /focus_sg/et/new?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Et
+
+[ 2016-08-09T11:48:47+08:00 ] 127.0.0.1 /focus_sg/get/new?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0060s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_block_item` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`idtype`,`title` FROM `pre_common_block_item` WHERE `bid` = 132 ORDER BY displayorder asc  [ RunTime:0.0000s ]
+
+[ 2016-08-09T11:51:09+08:00 ] 127.0.0.1 /focus_sg/get/new?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0090s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_block_item` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`idtype`,`title` FROM `pre_common_block_item` WHERE `bid` = 132 ORDER BY displayorder asc  [ RunTime:0.0000s ]
+
+[ 2016-08-09T13:50:32+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.4830s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0150s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=89 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 89 AND `displayorder` = 0  [ RunTime:0.0010s ]
+
+[ 2016-08-09T13:50:43+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0070s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` = 0  [ RunTime:0.0020s ]
+
+[ 2016-08-09T13:51:30+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T13:52:16+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc  [ RunTime:0.0000s ]
+
+[ 2016-08-09T13:53:58+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0000s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc  [ RunTime:0.0000s ]
+
+[ 2016-08-09T14:03:06+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0000s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T14:05:03+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T14:07:10+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0070s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc  [ RunTime:0.0020s ]
+
+[ 2016-08-09T14:12:38+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pagesize E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 54 行.
+ERR: 1064:Erreur de syntaxe près de '-20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20  
+ERR: 1064:Erreur de syntaxe près de '-20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20  
+
+[ 2016-08-09T14:13:18+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0070s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pagesize E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 54 行.
+ERR: 1064:Erreur de syntaxe près de '-20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20  
+ERR: 1064:Erreur de syntaxe près de '-20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20  
+
+[ 2016-08-09T14:14:54+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pagesize E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 54 行.
+ERR: 1064:Erreur de syntaxe près de '-20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20  
+ERR: 1064:Erreur de syntaxe près de '-20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20  
+
+[ 2016-08-09T14:15:41+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: pagesize E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 54 行.
+ERR: 1064:Erreur de syntaxe près de '-20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20  
+ERR: 1064:Erreur de syntaxe près de '-20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20  
+
+[ 2016-08-09T14:15:45+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0080s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pagesize E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\Navigat.class.php 第 54 行.
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc  [ RunTime:0.0020s ]
+
+[ 2016-08-09T14:16:33+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-08-09T14:18:05+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0100s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0100s ]
+ERR: 1064:Erreur de syntaxe près de '-20,20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20,20  
+ERR: 1064:Erreur de syntaxe près de '-20,20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20,20  
+
+[ 2016-08-09T14:19:31+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-08-09T14:21:02+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0050s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-08-09T14:22:32+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0070s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-08-09T14:22:39+08:00 ] 127.0.0.1 /focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT 260,20   [ RunTime:0.0020s ]
+
+[ 2016-08-09T14:46:33+08:00 ] 127.0.0.1 /focus_sg/get/allessence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Get
+
+[ 2016-08-09T14:47:02+08:00 ] 127.0.0.1 /focus_sg/get/allessence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Get
+
+[ 2016-08-09T14:47:19+08:00 ] 127.0.0.1 /focus_sg/get/allessence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0100s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`fid`,`author`,`authorid`,`subject`,`dateline` FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 0,25   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr E:\www\Discuz\upload\focus_sg\Application\Home\Controller\PostController.class.php 第 93 行.
+
+[ 2016-08-09T14:48:08+08:00 ] 127.0.0.1 /focus_sg/get/allessence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0000s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`fid`,`author`,`authorid`,`subject`,`dateline` FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 0,25   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr E:\www\Discuz\upload\focus_sg\Application\Home\Controller\PostController.class.php 第 93 行.
+
+[ 2016-08-09T14:50:14+08:00 ] 127.0.0.1 /focus_sg/get/allessence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0150s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`fid`,`author`,`authorid`,`subject`,`dateline` FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 0,25   [ RunTime:0.0010s ]
+
+[ 2016-08-09T14:53:45+08:00 ] 127.0.0.1 /focus_sg/get/allessence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0500s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`fid`,`author`,`authorid`,`subject`,`dateline` FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 0,25   [ RunTime:0.0000s ]
+
+[ 2016-08-09T14:53:59+08:00 ] 127.0.0.1 /focus_sg/get/allessence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0100s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`fid`,`author`,`authorid`,`subject`,`dateline` FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 0,25   [ RunTime:0.0000s ]
+
+[ 2016-08-09T15:01:22+08:00 ] 127.0.0.1 /focus_sg/get/allessence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0060s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tid`,`fid`,`author`,`authorid`,`subject`,`dateline` FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 25,25   [ RunTime:0.0010s ]
+
+[ 2016-08-09T15:01:26+08:00 ] 127.0.0.1 /focus_sg/get/allessence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0060s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tid`,`fid`,`author`,`authorid`,`subject`,`dateline` FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 25,25   [ RunTime:0.0010s ]
+
+[ 2016-08-09T15:01:56+08:00 ] 127.0.0.1 /focus_sg/get/allessence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0100s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tid`,`fid`,`author`,`authorid`,`subject`,`dateline` FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 25,25   [ RunTime:0.0010s ]
+
+[ 2016-08-09T15:02:10+08:00 ] 127.0.0.1 /focus_sg/get/allnew?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0050s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: SELECT `tid`,`fid`,`author`,`authorid`,`subject`,`dateline` FROM `pre_forum_thread` WHERE `digest` = 0 ORDER BY dateline desc LIMIT 50,25   [ RunTime:0.0400s ]
+
+[ 2016-08-09T15:02:18+08:00 ] 127.0.0.1 /focus_sg/get/allnew?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0060s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: SELECT `tid`,`fid`,`author`,`authorid`,`subject`,`dateline` FROM `pre_forum_thread` WHERE `digest` = 0 ORDER BY dateline desc LIMIT 0,25   [ RunTime:0.0120s ]
+
+[ 2016-08-09T15:14:10+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/allnew?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0060s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SELECT `tid`,`fid`,`author`,`authorid`,`subject`,`dateline` FROM `pre_forum_thread` WHERE `digest` = 0 ORDER BY dateline desc LIMIT 0,25   [ RunTime:0.0110s ]
+
+[ 2016-08-09T15:14:15+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/allnew?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0080s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: SELECT `tid`,`fid`,`author`,`authorid`,`subject`,`dateline` FROM `pre_forum_thread` WHERE `digest` = 0 ORDER BY dateline desc LIMIT 175,25   [ RunTime:0.0110s ]
+
+[ 2016-08-09T15:14:20+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/allnew?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0060s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SELECT `tid`,`fid`,`author`,`authorid`,`subject`,`dateline` FROM `pre_forum_thread` WHERE `digest` = 0 ORDER BY dateline desc LIMIT 150,25   [ RunTime:0.0130s ]
+
+[ 2016-08-09T15:14:25+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/allnew?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0060s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SELECT `tid`,`fid`,`author`,`authorid`,`subject`,`dateline` FROM `pre_forum_thread` WHERE `digest` = 0 ORDER BY dateline desc LIMIT 175,25   [ RunTime:0.0110s ]
+
+[ 2016-08-09T15:25:41+08:00 ] 127.0.0.1 /focus_sg/get/allessence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0100s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`fid`,`author`,`authorid`,`subject`,`dateline` FROM `pre_forum_thread` WHERE `digest` = 1 LIMIT 25,25   [ RunTime:0.0000s ]
+
+[ 2016-08-09T15:28:13+08:00 ] 127.0.0.1 /focus_sg/get/essence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0100s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_block_item` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`idtype`,`title`,`url` FROM `pre_common_block_item` WHERE `bid` = 74 ORDER BY displayorder asc  [ RunTime:0.0000s ]
+
+[ 2016-08-09T15:32:56+08:00 ] 127.0.0.1 /focus_sg/get/essence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0100s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_block_item` [ RunTime:0.0100s ]
+ERR: 1052:Champ: 'displayorder' dans order clause est ambigu
+ [ SQL语句 ] : SELECT cb.id,cb.idtype,cb.title,cb.url,ft.author,ft.dateline FROM pre_common_block_item cb left join pre_forum_thread ft on ft.tid=cb.id   WHERE `bid` = 74 ORDER BY displayorder asc 
+ERR: 1052:Champ: 'displayorder' dans order clause est ambigu
+ [ SQL语句 ] : SELECT cb.id,cb.idtype,cb.title,cb.url,ft.author,ft.dateline FROM pre_common_block_item cb left join pre_forum_thread ft on ft.tid=cb.id   WHERE `bid` = 74 ORDER BY displayorder asc 
+
+[ 2016-08-09T15:33:35+08:00 ] 127.0.0.1 /focus_sg/get/essence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0060s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_common_block_item` [ RunTime:0.0070s ]
+SQL: SELECT cb.id,cb.idtype,cb.title,cb.url,ft.author,ft.dateline FROM pre_common_block_item cb left join pre_forum_thread ft on ft.tid=cb.id   WHERE `bid` = 74 ORDER BY cb.displayorder asc  [ RunTime:0.0000s ]
+
+[ 2016-08-09T15:35:02+08:00 ] 127.0.0.1 /focus_sg/get/essence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0000s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_block_item` [ RunTime:0.0100s ]
+SQL: SELECT cb.id,cb.idtype,cb.title,cb.url,ft.author,ft.dateline FROM pre_common_block_item cb left join pre_forum_thread ft on ft.tid=cb.id   WHERE `bid` = 74 ORDER BY cb.displayorder asc  [ RunTime:0.0000s ]
+
+[ 2016-08-09T15:37:32+08:00 ] 127.0.0.1 /focus_sg/get/essence?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0000s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_common_block_item` [ RunTime:0.0000s ]
+SQL: SELECT cb.id,cb.idtype,cb.title,cb.url,ft.author,ft.dateline,ft.fid FROM pre_common_block_item cb left join pre_forum_thread ft on ft.tid=cb.id   WHERE `bid` = 74 ORDER BY cb.displayorder asc  [ RunTime:0.0100s ]
+
+[ 2016-08-09T15:42:20+08:00 ] 127.0.0.1 /focus_sg/get/new?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0060s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_block_item` [ RunTime:0.0050s ]
+ERR: 1054:Champ 'cb.id' inconnu dans field list
+ [ SQL语句 ] : SELECT cb.id,cb.idtype,cb.title,cb.url,ft.author,ft.dateline,ft.fid FROM `pre_common_block_item` left join pre_forum_thread ft on ft.tid=cb.id   WHERE `bid` = 132 ORDER BY displayorder asc 
+ERR: 1054:Champ 'cb.id' inconnu dans field list
+ [ SQL语句 ] : SELECT cb.id,cb.idtype,cb.title,cb.url,ft.author,ft.dateline,ft.fid FROM `pre_common_block_item` left join pre_forum_thread ft on ft.tid=cb.id   WHERE `bid` = 132 ORDER BY displayorder asc 
+
+[ 2016-08-09T15:42:51+08:00 ] 127.0.0.1 /focus_sg/get/new?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0130s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_common_block_item` [ RunTime:0.0120s ]
+ERR: 1052:Champ: 'displayorder' dans order clause est ambigu
+ [ SQL语句 ] : SELECT cb.id,cb.idtype,cb.title,cb.url,ft.author,ft.dateline,ft.fid FROM pre_common_block_item cb left join pre_forum_thread ft on ft.tid=cb.id   WHERE `bid` = 132 ORDER BY displayorder asc 
+ERR: 1052:Champ: 'displayorder' dans order clause est ambigu
+ [ SQL语句 ] : SELECT cb.id,cb.idtype,cb.title,cb.url,ft.author,ft.dateline,ft.fid FROM pre_common_block_item cb left join pre_forum_thread ft on ft.tid=cb.id   WHERE `bid` = 132 ORDER BY displayorder asc 
+
+[ 2016-08-09T15:43:06+08:00 ] 127.0.0.1 /focus_sg/get/new?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0050s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_common_block_item` [ RunTime:0.0060s ]
+SQL: SELECT cb.id,cb.idtype,cb.title,cb.url,ft.author,ft.dateline,ft.fid FROM pre_common_block_item cb left join pre_forum_thread ft on ft.tid=cb.id   WHERE `bid` = 132 ORDER BY cb.displayorder asc  [ RunTime:0.0010s ]
+
+[ 2016-08-09T15:44:01+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/new?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0080s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_common_block_item` [ RunTime:0.0080s ]
+SQL: SELECT cb.id,cb.idtype,cb.title,cb.url,ft.author,ft.dateline,ft.fid FROM pre_common_block_item cb left join pre_forum_thread ft on ft.tid=cb.id   WHERE `bid` = 132 ORDER BY cb.displayorder asc  [ RunTime:0.0010s ]
+
+[ 2016-08-09T15:45:27+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/navigat?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0060s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forum` [ RunTime:0.0060s ]
+SQL: SELECT `fid`,`fup`,`name`,`displayorder` FROM `pre_forum_forum` WHERE `status` = 1 AND `type` = 'group' AND `fup` = 0 GROUP BY displayorder  [ RunTime:0.0050s ]
+SQL: SELECT `fid`,`fup`,`name`,`displayorder` FROM `pre_forum_forum` WHERE ( fup=1 )  [ RunTime:0.0010s ]
+SQL: SELECT `fid`,`fup`,`name`,`displayorder` FROM `pre_forum_forum` WHERE ( fup=36 )  [ RunTime:0.0010s ]
+SQL: SELECT `fid`,`fup`,`name`,`displayorder` FROM `pre_forum_forum` WHERE ( fup=37 )  [ RunTime:0.0010s ]
+SQL: SELECT `fid`,`fup`,`name`,`displayorder` FROM `pre_forum_forum` WHERE ( fup=38 )  [ RunTime:0.0000s ]
+SQL: SELECT `fid`,`fup`,`name`,`displayorder` FROM `pre_forum_forum` WHERE ( fup=41 )  [ RunTime:0.0000s ]
+SQL: SELECT `fid`,`fup`,`name`,`displayorder` FROM `pre_forum_forum` WHERE ( fup=40 )  [ RunTime:0.0000s ]
+SQL: SELECT `fid`,`fup`,`name`,`displayorder` FROM `pre_forum_forum` WHERE ( fup=42 )  [ RunTime:0.0010s ]
+SQL: SELECT `fid`,`fup`,`name`,`displayorder` FROM `pre_forum_forum` WHERE ( fup=72 )  [ RunTime:0.0010s ]
+SQL: SELECT `fid`,`fup`,`name`,`displayorder` FROM `pre_forum_forum` WHERE ( fup=85 )  [ RunTime:0.0010s ]
+SQL: SELECT `fid`,`fup`,`name`,`displayorder` FROM `pre_forum_forum` WHERE ( fup=91 )  [ RunTime:0.0000s ]
+
+[ 2016-08-09T16:06:03+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0070s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:Erreur de syntaxe près de '-20,20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20,20  
+ERR: 1064:Erreur de syntaxe près de '-20,20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20,20  
+
+[ 2016-08-09T16:07:22+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0080s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:Erreur de syntaxe près de '-20,20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20,20  
+ERR: 1064:Erreur de syntaxe près de '-20,20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20,20  
+
+[ 2016-08-09T16:15:43+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:Erreur de syntaxe près de '-20,20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20,20  
+ERR: 1064:Erreur de syntaxe près de '-20,20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20,20  
+
+[ 2016-08-09T16:15:49+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:Erreur de syntaxe près de '-20,20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20,20  
+ERR: 1064:Erreur de syntaxe près de '-20,20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20,20  
+
+[ 2016-08-09T16:16:03+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0080s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:Erreur de syntaxe près de '-20,20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20,20  
+ERR: 1064:Erreur de syntaxe près de '-20,20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20,20  
+
+[ 2016-08-09T16:22:01+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0070s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:Erreur de syntaxe près de '-20,20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20,20  
+ERR: 1064:Erreur de syntaxe près de '-20,20' à la ligne 1
+ [ SQL语句 ] : SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT -20,20  
+
+[ 2016-08-09T16:22:55+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0080s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 ORDER BY displayorder desc  [ RunTime:0.0000s ]
+
+[ 2016-08-09T16:23:21+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc  [ RunTime:0.0030s ]
+
+[ 2016-08-09T16:23:38+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 3 AND `displayorder` >= 0 ORDER BY displayorder desc  [ RunTime:0.0000s ]
+
+[ 2016-08-09T16:23:47+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc  [ RunTime:0.0020s ]
+
+[ 2016-08-09T16:23:54+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`displayorder` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT 20,20   [ RunTime:0.0000s ]
+
+[ 2016-08-09T16:24:29+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0060s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT 20,20   [ RunTime:0.0010s ]
+
+[ 2016-08-09T16:25:53+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0090s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tid`,`author`,`dateline`,`subject`,`views`,`fid` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT 20,20   [ RunTime:0.0010s ]
+
+[ 2016-08-09T16:26:06+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_common_member` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `pre_forum_thread` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `pre_forum_forumfield` [ RunTime:0.0090s ]
+SQL: SELECT `adminid`,`groupid` FROM `pre_common_member` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `viewperm` FROM `pre_forum_forumfield` WHERE ( fid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tid`,`fid`,`author`,`dateline`,`subject`,`views` FROM `pre_forum_thread` WHERE `fid` = 2 AND `displayorder` >= 0 ORDER BY displayorder desc LIMIT 20,20   [ RunTime:0.0010s ]
+
+[ 2016-08-09T16:37:42+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: arr E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 72 行.
+
+[ 2016-08-09T16:41:05+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 69 行.
+NOTIC: [8] Undefined variable: arr E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 76 行.
+
+[ 2016-08-09T16:41:07+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 69 行.
+NOTIC: [8] Undefined variable: arr E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 76 行.
+
+[ 2016-08-09T16:41:53+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 69 行.
+NOTIC: [8] Undefined variable: arr E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 76 行.
+
+[ 2016-08-09T16:42:45+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 69 行.
+
+[ 2016-08-09T16:49:24+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 69 行.
+
+[ 2016-08-09T16:49:45+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: res E:\www\Discuz\upload\focus_sg\Application\Home\Controller\NavigatController.class.php 第 69 行.
+
+[ 2016-08-09T16:51:28+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-09T16:51:52+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T16:52:11+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-09T16:52:12+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T16:52:59+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T16:53:00+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-09T16:53:30+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:53:45+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T16:53:54+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-09T16:54:08+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-09T16:54:32+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-09T16:55:13+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/thread?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_token` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: time E:\www\Discuz\upload\focus_sg\ThinkPHP\Library\Think\OAuth.class.php 第 72 行.
+SQL: SELECT `access_token`,`atoken_expires` FROM `pre_focus_ouath_token` WHERE ( user_id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-09T17:29:51+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/liuyan?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Get
+
+[ 2016-08-09T17:30:25+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/liuyan?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0080s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T17:31:12+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/liuyan?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0070s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_cnyinglan_liuyan_info` [ RunTime:0.0070s ]
+SQL: SELECT `uid`,`username`,`message`,`adddate` FROM `pre_cnyinglan_liuyan_info` ORDER BY adddate desc LIMIT 20   [ RunTime:0.0020s ]
+
+[ 2016-08-09T17:33:18+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/liuyan?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0100s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_cnyinglan_liuyan_info` [ RunTime:0.0090s ]
+SQL: SELECT `uid`,`username`,`message`,`adddate` FROM `pre_cnyinglan_liuyan_info` ORDER BY adddate desc LIMIT 10   [ RunTime:0.0030s ]
+
+[ 2016-08-09T17:45:07+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/allliuyan?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0080s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-09T17:45:37+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/allliuyan?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0050s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-09T17:47:12+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/allliuyan?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0060s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `pre_cnyinglan_liuyan_info` [ RunTime:0.0060s ]
+SQL: SELECT `uid`,`username`,`message`,`adddate` FROM `pre_cnyinglan_liuyan_info` ORDER BY adddate desc LIMIT 0,20   [ RunTime:0.0020s ]
+
+[ 2016-08-09T17:51:23+08:00 ] 192.168.1.42 /Discuz/upload/focus_sg/get/allliuyan?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pre_focus_ouath_client` [ RunTime:0.0100s ]
+SQL: SELECT `secretkey` FROM `pre_focus_ouath_client` WHERE ( appkey='195c1aec72a004d611789dc9c8db63cc' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pre_cnyinglan_liuyan_info` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pre_cnyinglan_liuyan_info` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`username`,`message`,`adddate` FROM `pre_cnyinglan_liuyan_info` ORDER BY adddate desc LIMIT 0,20   [ RunTime:0.0020s ]
+
